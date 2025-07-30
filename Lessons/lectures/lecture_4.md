@@ -22,127 +22,127 @@
 
 Познакомимся с настройками пользователя, сейчас мы менять их не будем, но отметим, что они в основном влияют на отображение, производительность и способы ввода, также в них находятся пути к форматкам (об этом чуть позже). Открываем SW, перед нами всплывает окно:
 
- ![alt text](/Lessons/img/image.png)
+ ![alt text](/Lessons/img/lecture_4/image.png)
 
 Открываем **Настройки пользователя** (шестеренка на панели команд)
 
- ![alt text](/Lessons/img/image-1.png)
+ ![alt text](/Lessons/img/lecture_4/image-1.png)
 
  Тут во вкладках **Месторасположение файлов** и  **Шаблоны по умолчанию** находятся интересующие нас пути: 
  
- ![alt text](/Lessons/img/image-2.png) ![alt text](/Lessons/img/image-3.png)
+ ![alt text](/Lessons/img/lecture_4/image-2.png) ![alt text](/Lessons/img/lecture_4/image-3.png)
 
  Сейчас шаблоны по умолчанию пусты и нам нужно это исправить. Для этого закрываем **Настройки пользователя** и открываем приветственное окно, для этого можно нажать CTRL + F2:
 
- ![alt text](/Lessons/img/image-4.png)
+ ![alt text](/Lessons/img/lecture_4/image-4.png)
 
 В приветственном окне кликаем на кнопку "Дополнительно"
 
-![alt text](/Lessons/img/image-5.png)
+![alt text](/Lessons/img/lecture_4/image-5.png)
 
 В появившейся вкладке выбираем "gost-part drw". Перед нами вылетает всплывающее окно **Формат листа/Размер**. Нужно нажать **отмена**. И **отмена** на вкладке слева **Вид модели**.
 
-![alt text](/Lessons/img/image-6.png)
+![alt text](/Lessons/img/lecture_4/image-6.png)
 
-![alt text](/Lessons/img/image-7.png)
+![alt text](/Lessons/img/lecture_4/image-7.png)
 
 Теперь открываем **Настройки пользователя** и во вкладках наверху выбираем **Свойства документа**. 
-![alt text](/Lessons/img/image-8.png). Сейчас выбран формат по-умолчанию ГОСТ-ИЗМЕНЕН, мы на его базе создадим свой и будем его использовать. Если какой-то раздел не требует изменений, то про него ничего не написано.
+![alt text](/Lessons/img/lecture_4/image-8.png). Сейчас выбран формат по-умолчанию ГОСТ-ИЗМЕНЕН, мы на его базе создадим свой и будем его использовать. Если какой-то раздел не требует изменений, то про него ничего не написано.
 
 В качестве шрифта (вкладка **примечания**) выбираем **Calibri**. Можно установить отдельно шрифты ГОСТ А и ГОСТ Б, но у них могут возникать проблемы при совмещении с Windows. Далее будут приведены скриншоты, выставляйте параметры в соответствии с ними. 
 
-![alt text](/Lessons/img/image-9.png)
-![alt text](/Lessons/img/image-10.png)
+![alt text](/Lessons/img/lecture_4/image-9.png)
+![alt text](/Lessons/img/lecture_4/image-10.png)
 
 Вкладка **Позиции**
-![alt text](/Lessons/img/image-11.png)
+![alt text](/Lessons/img/lecture_4/image-11.png)
 ![alt text](/Lessons/img/image-12.png)
 
 Вкладка **Заметки**
-![alt text](/Lessons/img/image-13.png)
+![alt text](/Lessons/img/lecture_4/image-13.png)
 
 Вклада **Шероховатость поверхности**
-![alt text](/Lessons/img/image-14.png)
+![alt text](/Lessons/img/lecture_4/image-14.png)
 
 Раздел **Размеры**
-![alt text](/Lessons/img/image-15.png)
-![alt text](/Lessons/img/image-16.png)
+![alt text](/Lessons/img/lecture_4/image-15.png)
+![alt text](/Lessons/img/lecture_4/image-16.png)
 Нажимаем на кнопку "Допуск"
-![alt text](/Lessons/img/image-18.png)
+![alt text](/Lessons/img/lecture_4/image-18.png)
 
 Вкладка **Диаметр**
-![alt text](/Lessons/img/image-19.png)
+![alt text](/Lessons/img/lecture_4/image-19.png)
 
 Раздел **Осевые линии/ Указатели центра**
-![alt text](/Lessons/img/image-20.png)
+![alt text](/Lessons/img/lecture_4/image-20.png)
 
 Раздел **Таблицы** меняем шрифт
-![alt text](/Lessons/img/image-21.png)
+![alt text](/Lessons/img/lecture_4/image-21.png)
 
 Раздел **Виды** меняем шрифт
-![alt text](/Lessons/img/image-22.png)
+![alt text](/Lessons/img/lecture_4/image-22.png)
 Вкладка **Вспомогательный** 
-![alt text](/Lessons/img/image-23.png)
+![alt text](/Lessons/img/lecture_4/image-23.png)
 Вкладка **Местный**
-![alt text](/Lessons/img/image-24.png)
+![alt text](/Lessons/img/lecture_4/image-24.png)
 Вкладка **Сечение**
-![alt text](/Lessons/img/image-25.png)
+![alt text](/Lessons/img/lecture_4/image-25.png)
 Раздел **Детализация**
-![alt text](/Lessons/img/image-26.png)
+![alt text](/Lessons/img/lecture_4/image-26.png)
 
 Раздел **Единицы измерения**
-![alt text](/Lessons/img/image-27.png)
+![alt text](/Lessons/img/lecture_4/image-27.png)
 
 Теперь сохраним получившийся шаблон. Переходим во вкладку **Чертежный стандарт**, нажимаем на кнопку «Сохранить во внешнем файле…» присваиваем имя и нажимаем сохранить.
-![alt text](/Lessons/img/image-28.png)
+![alt text](/Lessons/img/lecture_4/image-28.png)
 
 Теперь сделаем так, чтоб эти настройки автоматически применялись к новым файлам деталей и сборок (как доделать шаблон чертежа можно посмотреть здесь: https://3ddd-engineering.ru/sozdaem-shablon-chertezha-po-gost-eskd-v-solidworks/, но мы не будем оформлять конструкторскую документацию на наш проект, так что это останется на Ваше усмотрение).
 
 Открываем приветственное окно в режиме "Дополнительно"
 
-![alt text](/Lessons/img/image-29.png)
+![alt text](/Lessons/img/lecture_4/image-29.png)
 
 Выбираем иконку gost-part и открываем **Параметры**
 
-![alt text](/Lessons/img/image-30.png)
+![alt text](/Lessons/img/lecture_4/image-30.png)
 
 В разделе **Свойства документа** во вкладке **Чертежный стандарт** нажимаем кнопку **Загрузить из внешнего файла** и открываем тот документ с расширением .sldstd, который мы сохраняли ранее.
 
-![alt text](/Lessons/img/image-31.png)
+![alt text](/Lessons/img/lecture_4/image-31.png)
 
 Далее нажимаем ОК. Теперь сохраним новый файл шаблона детали. Для этого нажимаем **Файл** -> **Сохранить как** и выбираем формат **Part templates**
 
-![alt text](/Lessons/img/image-32.png)
-![alt text](/Lessons/img/image-33.png)
+![alt text](/Lessons/img/lecture_4/image-32.png)
+![alt text](/Lessons/img/lecture_4/image-33.png)
 
 Теперь открываем **Параметры** -> **Настройки пользователя** -> **Месторасположение файлов** и добавляем путь до той папки, в которую мы только что сохранили два документа "ГОСТ.sldstd"
 
-![alt text](/Lessons/img/image-34.png)
+![alt text](/Lessons/img/lecture_4/image-34.png)
 
 После чего, в разделе **Шаблоны по умолчанию**, в пути для детали выбираем путь до созданного файла "Деталь.sldstd". Нажимаем "ОК".
 
-![alt text](/Lessons/img/image-35.png)
+![alt text](/Lessons/img/lecture_4/image-35.png)
 
 Открываем приветственное окно в режиме "Дополнительно"
 
-![alt text](/Lessons/img/image-29.png)
+![alt text](/Lessons/img/lecture_4/image-29.png)
 
 Выбираем иконку gost-assy (или Шаблон Сборки/ сборка), закрываем всплывающие окна (нажимая кнопки отмена и красный крестик) и открываем **Параметры**
 
-![alt text](/Lessons/img/image-36.png)
-![alt text](/Lessons/img/image-37.png)
-![alt text](/Lessons/img/image-38.png)
+![alt text](/Lessons/img/lecture_4/image-36.png)
+![alt text](/Lessons/img/lecture_4/image-37.png)
+![alt text](/Lessons/img/lecture_4/image-38.png)
 
 В разделе **Свойства документа** во вкладке **Чертежный стандарт** нажимаем кнопку **Загрузить из внешнего файла** и открываем тот документ с расширением .sldstd, который мы сохраняли ранее.
 
-![alt text](/Lessons/img/image-31.png)
+![alt text](/Lessons/img/lecture_4/image-31.png)
 
 Далее нажимаем ОК. Теперь сохраним новый файл шаблона детали. Для этого нажимаем **Файл** -> **Сохранить как** и выбираем формат **Assembly templates**. Если у вас уже лежит здесь документ с этим расширением, то есть вероятность, что SW уже создал его за Вас автоматически, но я рекомендую заменить файл на созданный вручную, чтобы быть уверенным в применении корректных настроек.
-![alt text](/Lessons/img/image-39.png)
+![alt text](/Lessons/img/lecture_4/image-39.png)
 
 После чего, в разделе **Шаблоны по умолчанию**, в пути для сборки выбираем путь до созданного файла "Сборка.sldstd", если он еще не выбран. Нажимаем "ОК".
 
-![alt text](/Lessons/img/image-40.png)
+![alt text](/Lessons/img/lecture_4/image-40.png)
 
 ## Эскизы. Детали.
 
@@ -164,156 +164,156 @@
 
  И вот такое изображение:
 
-![alt text](/Lessons/img/image-42.png)
+![alt text](/Lessons/img/lecture_4/image-42.png)
 
 Сам двигатель имеет такой чертеж (к сожалению, почти все чертежи на компоненты, которые представляют производители не соответствуют требованиям ЕСКД)
 
-![alt text](/Lessons/img/image-43.png)
+![alt text](/Lessons/img/lecture_4/image-43.png)
 
 Приступим к созданию 3D модели диска (втулки). Создаем новую **деталь**. Выбираем вкладку **Эскиз**. В верхнем левом углу нажимаем на пиктограмму эскиз. Нам предложат выбрать плоскость на которой мы будем рисовать эскиз. Здесь выбор плоскости не принципиален, но лучше выбирать что-то интуитивно-понятное для каждой конкретной детали.
 
-![alt text](/Lessons/img/image-41.png)
+![alt text](/Lessons/img/lecture_4/image-41.png)
 
 Для создания эскиза будем использовать стандартные инструменты:
 
-![alt text](/Lessons/img/image-44.png)
+![alt text](/Lessons/img/lecture_4/image-44.png)
 
 Выбираем  (ЛКМ) инструмент **Линия**. Нам открылось вспомогательное меню. На плоскости, на которой нам предстоит работать, стоит начальная точка. Все элементы эскиза должны быть жестко закреплены относительно нее. 
 
-![alt text](/Lessons/img/image-45.png)
+![alt text](/Lessons/img/lecture_4/image-45.png)
 
 Чтобы нарисовать втулку, осознаем, что перед нами тело вращения, значит нам нужно представить ее в профиль, нарисовать замкнутый контур повторяющий ее очертания, нарисовать ось, проставить размеры и вращать на 360 градусов.  Проведем первую линию. ПКМ на начальную точку и по горизонтали вправо, снова ПКМ. Видим что линия не прервалась а просто закрепилась относительно новой точки. Чтоб прервать рисование линии нужно нажать ESC, но нам пока это не нужно. 
 
-![alt text](/Lessons/img/image-46.png)
+![alt text](/Lessons/img/lecture_4/image-46.png)
 
 Рисуем замкнутый контур (если контур замкнутый, он будет залит), который соответствует профилю нашей втулки.
 
-![alt text](/Lessons/img/image-47.png)
+![alt text](/Lessons/img/lecture_4/image-47.png)
 
 На панели инструментов есть пиктограмма размеров и, если ее развернуть, мы увидим широкий выбор возможных размеров, но, пока, мы будем использовать только **Автоматическое нанесение размеров**. Выбираем его и смотрим на характеристики втулки. Диаметр втулки равняется 20мм. Крепим размер к нужной линии и меняем имя на D, размер на 10 и нажимаем зеленую галочку. После чего вторая линия становится черной. Это значит, что обе линии однозначно определены относительно начальной точки. 
 > Лучше всем размерам давать понятные имена: D-больший диаметр, d - малый диаметр, h - высота итд, чтоб при создании конфигураций (об этом позднее) не столкнуться с значительными трудностями.
 
-![alt text](/Lessons/img/image-48.png)
-![alt text](/Lessons/img/image-49.png)
+![alt text](/Lessons/img/lecture_4/image-48.png)
+![alt text](/Lessons/img/lecture_4/image-49.png)
 
 Продолжим проставлять размеры пока все линии не станут черными. Что делать, если не все размеры известны? К сожалению, это частая ситуация. Лучше всего создать зависимость между известным и не известным размерами. Для этого выставляем неизвестный размер, но вместо значения ставим "=", кликаем по известному размеру и записываем соотношение. В примере со втулкой нам не известна высота самого диска, предположим, что она составляет половину высоты всей втулки и запишем это так:
 
-![alt text](/Lessons/img/image-74.png)
+![alt text](/Lessons/img/lecture_4/image-74.png)
 
 Полученный размер отмечен символом уравнения.
 
-![alt text](/Lessons/img/image-75.png)
+![alt text](/Lessons/img/lecture_4/image-75.png)
 
 Теперь, когда все размеры определены, нажимаем стрелку в правом верхнем углу **Сохранить изменения и выйти из эскиза**.
 
-![alt text](/Lessons/img/image-52.png)
+![alt text](/Lessons/img/lecture_4/image-52.png)
 
 Теперь в дереве построений, помимо стандартных элементов появился наш эскиз.
 
-![alt text](/Lessons/img/image-53.png)
+![alt text](/Lessons/img/lecture_4/image-53.png)
 
 Переходим на вкладку **элементы** и выбираем **Повернутая бобышка\основание**. В качестве оси вращения выбираем внутреннюю линию профиля и кликаем по ней.
 
-![alt text](/Lessons/img/image-54.png)
+![alt text](/Lessons/img/lecture_4/image-54.png)
 
 Если нас устраивает результат нажимаем зеленую галочку. Таким образом у нас получилась заготовка под втулку.
 
-![alt text](/Lessons/img/image-55.png)
+![alt text](/Lessons/img/lecture_4/image-55.png)
 
 Если Вам мешают тени и блики на детали, то их можно отключить: выбираем пиктограмму монитора и снимаем все галочки.
-![alt text](/Lessons/img/image-56.png)
-![alt text](/Lessons/img/image-57.png)
+![alt text](/Lessons/img/lecture_4/image-56.png)
+![alt text](/Lessons/img/lecture_4/image-57.png)
 
 Теперь наша деталь отображается так:
 
-![alt text](/Lessons/img/image-58.png)
+![alt text](/Lessons/img/lecture_4/image-58.png)
 
 Сделаем отверстия в диске. Их четыре, расстояние между ними 14мм, и они под винты М3. (Задание для размышлений: чем болты отличаются от винтов?). Чтоб сделать корректные отверстия под винты нужно открыть ГОСТ 19257-73 "ОТВЕРСТИЯ ПОД НАРЕЗАНИЕ МЕТРИЧЕСКОЙ РЕЗЬБЫ"
 
-![alt text](/Lessons/img/image-60.png)
+![alt text](/Lessons/img/lecture_4/image-60.png)
 
 Мы пока не будем задаваться вопросом: что за поля допуска, но если вам интересно, вот ГОСТ 25346-89. Итак, нам нужно сделать обычные сквозные отверстия (без резьбы), для этого кликаем ПКМ по плоскости диска и выбираем во всплывающем меню **Эскиз**. В режиме эскиза щелкаем на выпадающее меню рядом с **линией** и выбираем **Осевая линия**. Осевая линия не образует замкнутый контур.
 
-![alt text](/Lessons/img/image-61.png)
+![alt text](/Lessons/img/lecture_4/image-61.png)
 
 Проводим радиус от центральной точки.
 
-![alt text](/Lessons/img/image-62.png)
+![alt text](/Lessons/img/lecture_4/image-62.png)
 
 Теперь выбираем окружность и размещаем ее центр на проведенной осевой линии.
 
-![alt text](/Lessons/img/image-63.png)
+![alt text](/Lessons/img/lecture_4/image-63.png)
 
 Проставляем размер 2,5 мм, и радиус 14/2 мм. 
 
-![alt text](/Lessons/img/image-64.png)
+![alt text](/Lessons/img/lecture_4/image-64.png)
 
-![alt text](/Lessons/img/image-65.png)
+![alt text](/Lessons/img/lecture_4/image-65.png)
 
 Мы сделали одно отверстие, а нужно нам четыре. Для этого у нас есть Массивы и зеркальное отображение. Сейчас нам больше всего подходит круговой массив эскиза.
 
-![alt text](/Lessons/img/image-66.png)
-![alt text](/Lessons/img/image-67.png)
+![alt text](/Lessons/img/lecture_4/image-66.png)
+![alt text](/Lessons/img/lecture_4/image-67.png)
 
 В левой меню выбираем центр вращения (в нашем случае это начальная точка\ центр диска), а в качестве Объекта массива окружность диаметром 2,5мм.
 
-![alt text](/Lessons/img/image-68.png)
+![alt text](/Lessons/img/lecture_4/image-68.png)
 
 Нажимаем зеленую галочку, получаем 4 окружности, но три из них синего контура, а не черного. Значит они не определены. Возьмем за центр одну из синих окружностей и тянем вбок. Если Вам повезет, то после этого центр массива сам привяжется в начальной точке. Иначе нужно будет самим настроить соединение. Для этого через Ctrl выделяем две точки, которые хотим соединить, и выбираем тип привязки **Совпадение**
 
-![alt text](/Lessons/img/image-69.png)
+![alt text](/Lessons/img/lecture_4/image-69.png)
 
 Выходим из эскиза. Выбираем **Вытянутый вырез**. У вытянутого выреза есть ряд параметров:
 
-![alt text](/Lessons/img/image-70.png)
+![alt text](/Lessons/img/lecture_4/image-70.png)
 
 На данном этапе нас устроит вариант **Насквозь**, а в дальнейшем выбирайте по ситуации.
 
 Теперь у нас четыре сквозных отверстия, но нам нужны резьбовые, поэтому, кликаем **Вставка** -> **Примечания** -> **Условное изображение резьбы**
 
-![alt text](/Lessons/img/image-71.png)
+![alt text](/Lessons/img/lecture_4/image-71.png)
 
 Выбираем все кромки и вводим параметры резьбы, потом нажимаем на зеленую галочку.
 
-![alt text](/Lessons/img/image-72.png)
-![alt text](/Lessons/img/image-73.png)
+![alt text](/Lessons/img/lecture_4/image-72.png)
+![alt text](/Lessons/img/lecture_4/image-73.png)
 
 Осталось только добавить внутреннее отверстие под вал сервопривода. Про него нам ничего не известно, кроме того, что диаметр вала сервопривода 6 мм, и 3 мм ось. исходя из этих данных и изображения сделаем отверстие.
 
-![alt text](/Lessons/img/image-76.png)
+![alt text](/Lessons/img/lecture_4/image-76.png)
 
 Вот что получилось. В сравнение с исходной картинкой видно, что стенка втулки там, где крепится вал сервопривода, толще, чем то что получилось у нас. С одной стороны это не принципиально, с другой стороны это лучше поправить. Для этого кликаем на внешнюю поверхность втулки:
 
-![alt text](/Lessons/img/image-78.png)
+![alt text](/Lessons/img/lecture_4/image-78.png)
 
 и видим нужный размер (3,2мм), кликаем по нему дважды ЛКМ и меняем на 3,5мм.
 
-![alt text](/Lessons/img/image-79.png)
+![alt text](/Lessons/img/lecture_4/image-79.png)
 
 Чтоб применить изменения нажимаем зеленую галочку и светофор на панели инструментов (Ctrl+B).
 
-![alt text](/Lessons/img/image-80.png)
+![alt text](/Lessons/img/lecture_4/image-80.png)
 
 Теперь нужно правильно сохранить деталь. Сначала в разделе **Материал** выбираем **Редактировать материал**
 
-![alt text](/Lessons/img/image-81.png)
+![alt text](/Lessons/img/lecture_4/image-81.png)
 
 Поскольку, у нас нет информации о сплаве, выбираем любой алюминиевый сплав. Нажимаем "Применить".
 
-![alt text](/Lessons/img/image-82.png)
+![alt text](/Lessons/img/lecture_4/image-82.png)
 
 Теперь переходим к **свойствам файла**
 
-![alt text](/Lessons/img/image-83.png)
+![alt text](/Lessons/img/lecture_4/image-83.png)
 
 В настройках добавляем свойство **Наименование**, **Обозначение** и **Раздел**. Заполняем эти строки:
 
-![alt text](/Lessons/img/image-84.png)
+![alt text](/Lessons/img/lecture_4/image-84.png)
 
 После этого можно сохранять диск. Советую в папке проекта завести отдельные папки для деталей, сборок, покупных изделий и stl моделей. Сохраняем в покупные изделия, называя понятно для себя например "Втулка серводвигателя".
 
-![alt text](/Lessons/img/image-85.png).
+![alt text](/Lessons/img/lecture_4/image-85.png).
 
 Например так 
 
-![alt text](/Lessons/img/image-86.png)
+![alt text](/Lessons/img/lecture_4/image-86.png)
