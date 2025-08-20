@@ -1,5 +1,4 @@
 import sympy as sp
-
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
@@ -67,8 +66,8 @@ sp.pretty_print(T_simplified)
 L1, L2, L3 = 1.0, 0.8, 0.6  # длины звеньев (задаем произвольно, но так, чтоб выглядело реалистично)
 
 # Зафиксируем первое звено, чтоб визуализировать на плоскости.
-Q1 = np.deg2rad(20)
-Q2 = np.deg2rad(15)
+Q1 = np.deg2rad(0)
+Q2 = np.deg2rad(45)
 Q3 = np.deg2rad(30)
 
 subs_dict = {
@@ -159,6 +158,8 @@ ax1.set_aspect("equal")
 ax3.set_title("xy")
 ax3.set_aspect("equal")
 
+# Наведем красоту.
+
 ax1.set_xlim(-0.5, 1.5)
 ax3.set_xlim(-0.5, 1.5)
 
@@ -235,5 +236,69 @@ x_text_3 = center_3[0] + (radius_3 + 0.1) * np.cos(mid_angle_3)  # чуть да
 y_text_3 = center_3[1] + (radius_3 + 0.1) * np.sin(mid_angle_3)
 
 ax1.text(x_text_3, y_text_3, "q3", fontsize=12, color="g")
+
+plt.show()
+
+# построим все возможные точки положения схвата если у нас будуь следующие 
+# ограничения на углы
+
+Q1_min_deg = -90
+Q1_max_deg = 90
+
+Q2_min_deg = 0
+Q2_max_deg = 90
+
+Q3_min_deg = -60
+Q3_max_deg = 60
+
+fig_2 = plt.figure(figsize=(10, 5))
+
+# Создаем окна
+ax1_g = fig_2.add_subplot(1, 2, 1)
+#ax2_g = fig_2.add_subplot(1, 3, 2)
+ax3_g = fig_2.add_subplot(1, 2, 2)
+
+for q1_deg in range (Q1_min_deg, Q1_max_deg+1, 2):
+    for q2_deg in range (Q2_min_deg, Q2_max_deg+1, 2):
+        for q3_deg in range (Q3_min_deg, Q3_max_deg+1, 2):
+                Q1_r = np.deg2rad(q1_deg)
+                Q2_r = np.deg2rad(q2_deg)
+                Q3_r = np.deg2rad(q3_deg)
+                new_subs_dict = {
+                        q1: Q1_r, 
+                        q2: Q2_r,
+                        q3: Q3_r,
+                        l1: L1, 
+                        l2: L2,
+                        l3: L3
+                        }
+                coord_3 = T[:, -1]
+
+                x_g_r = coord_3[0]
+                y_g_r = coord_3[1]
+                z_g_r = coord_3[2]
+
+                # теперь используем new_subs_dict
+                x_g = float(x_g_r.subs(new_subs_dict))
+                y_g = float(y_g_r.subs(new_subs_dict))
+                z_g = float(z_g_r.subs(new_subs_dict))
+
+                ax1_g.plot(x_g, z_g, "o", color="gray", markersize=1)
+                #ax2_g.plot(y_g, z_g, "o", color="gray", markersize=1)
+                ax3_g.plot(x_g, y_g, "o", color="gray", markersize=1)
+
+ax1_g.set_title("zx")
+ax1_g.set_aspect("equal")
+
+#ax2_g.set_title("zy")
+#ax2_g.set_aspect("equal")
+
+ax3_g.set_title("xy")
+ax3_g.set_aspect("equal")
+
+# Наведем красоту.
+
+ax1_g.set_xlim(-0.5, 1.5)
+ax3_g.set_xlim(-0.5, 1.5)
 
 plt.show()
