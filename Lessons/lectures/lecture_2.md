@@ -198,7 +198,7 @@ $$
 
 На предыдущем шаге были получены четыре параметры для каждого звена манипулятора. Теперь из них необходимо построить соответствующие матрицы однородного преобразования следующим образом:
 
-$$A*i = R_{\theta*i} * T_{d*i} * T_{a*i} * R_{\alpha_i} $$
+$A_i = R_{\theta_i} * T_{d_i} * T_{a_i} * R_{\alpha_i}$
 
 $$
 A_i =
@@ -222,19 +222,20 @@ sin q_1 & cos q_1 * cos\frac{pi}{2}  & -cos q_1 * sin\frac{pi}{2} & 0 * sin q_1 
 \end{bmatrix}
 $$
 
+$$ = $$
+
 $$
-=
 \begin{bmatrix}
 cos q_1  & -sin q_1 * 0   & sin q_1 * 1    & 0 * cos q_1 \\
 sin q_1  & cos q_1 * 0    & -cos q_1 * 1    & 0 * sin q_1 \\
 0         & 1               & 0              & l_1 \\
 0         & 0               & 0              & 1
 \end{bmatrix}
-=
 $$
 
+$$ = $$
+
 $$
-=
 \begin{bmatrix}
 cos q_1  & 0               & sin q_1       & 0 \\
 sin q_1  & 0               & -cos q_1      & 0 \\
@@ -298,7 +299,11 @@ x^0_3(q) \\
 y^0_3(q) \\
 z^0_3(q)
 \end{bmatrix}
-=
+$$
+
+$$ = $$
+
+$$
 \begin{bmatrix}
 ( l_2 * cos q_2 + l_3 * cos(q_2 + q_3)) * cos q_1 \\
 ( l_2 * cos q_2 + l_3 * cos(q_2 + q_3)) * sin q_1 \\
