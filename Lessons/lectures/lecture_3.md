@@ -58,9 +58,9 @@ $$
 $$
 q_1 =
 \begin{cases}
-\arctan\!\left(\dfrac{y}{x}\right), & x>0,\\
-\arctan\!\left(\dfrac{y}{x}\right) + \pi, & x<0,\ y\ge 0,\\
-\arctan\!\left(\dfrac{y}{x}\right) - \pi, & x<0,\ y<0,\\
+\arctan2\left(\dfrac{y}{x}\right), & x>0,\\
+\arctan2\left(\dfrac{y}{x}\right) + \pi, & x<0,\ y\ge 0,\\
+\arctan2\left(\dfrac{y}{x}\right) - \pi, & x<0,\ y<0,\\
 +\dfrac{\pi}{2}, & x=0,\ y>0,\\
 -\dfrac{\pi}{2}, & x=0,\ y<0.
 \end{cases}
